@@ -1,0 +1,110 @@
+.play-button{
+	position: absolute;
+	top: 50%;
+    left: 41%;
+
+	font-size: 40px;
+}
+
+
+.start-ekran {
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	left: 0%;
+	bottom: 0%;
+	background: green;
+	z-index: 6;
+}
+
+.igrok-img {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+    width: 10%;
+	height: 10%;
+	border-left: none;
+	background-image: url('player1.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.protivnik-blue {
+	position: absolute;
+	top: 40%;
+	left: 90%;
+    width: 10%;
+	height: 10%;
+	background-image: url('vrag1.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.protivnik-red {
+	position: absolute;
+	top: 40%;
+	left: 1%;
+    width: 10%;
+	height: 10%;
+	background-image: url('vrag2.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+.nalevo {
+	background: ;
+	position: absolute;
+	top: 89%;
+	left: 89%;
+    width: 10%;
+	height: 10%;
+}
+
+
+.napravo {
+	background: ;
+	position: absolute;
+	top: 89%;
+	left: 1%;
+    width: 10%;
+	height: 10%;
+}
+
+.end-ekran{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+    font-family: cursive;
+	font-size: 60px;
+	background: red;
+	z-index: 5;
+	display: none;
+}
+
+.vistrel {
+	background: red;
+	position: absolute;
+	top: 75%;
+	left: 90%;
+    width: 10%;
+	height: 10%;
+}
+
+
+.vsriv {
+	background: red;
+	display: none;
+	position: absolute;
+	top: 42%;
+	left: 10%;
+    width: 5%;
+	height: 5%;
+	border-radius: 20px;
+}

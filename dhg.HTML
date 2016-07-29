@@ -1,0 +1,37 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="dhg.css">
+<script src="dhg.js"></script>
+
+ <meta charset="utf-8">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	  
+<button onclick="player.vistrilil()" id="tryp"  class="vistrel">.</button>
+
+<div id="vistr" class="vsriv">.</div>
+
+<div id="igrok-id" class="igrok-img"></div>
+	
+<div id="protivnik-red" class="protivnik-red"></div>
+<div id="protivnik-blue" class="protivnik-blue"></div>
+
+<audio id="audio-id" src="tank.ogg" loop></audio>
+<button onclick="player.moveLeft()" id="levo" class="nalevo">></button>
+<button onclick="player.moveRight()" id="pravo" class="napravo"><</button>
+<div id="start-id" class="start-ekran">
+	<button id="start-id" onclick="game.start()" class="play-button">PLAY</button>
+	<div id="nadpis" class="nazvanie">Tanks</div>
+</div>
+<div id="end-id" class="end-ekran">
+	<button id="nachZanovo" onclick="game.start()" class="play-button">Начать игру заново</button>
+	<div id="nadpis" class="nazvanie-proigrish">Вы проиграли</div>
+	
+</div>
+
+
+</body>
+</html>
