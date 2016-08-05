@@ -137,6 +137,8 @@ game.start = function() {
 	game.saveCounter();
 	
 }
+
+
 //показать конечный экран
 game.end = function() {
   // очистка интервала
@@ -149,6 +151,7 @@ game.end = function() {
   document.getElementById('audio-id').pause();
  
 }
+
 
 game.saveCounter = function() {
 	var x = localStorage.getItem('kolichestvoZapuskov');
