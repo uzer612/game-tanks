@@ -11,8 +11,8 @@ body {
 
 .play-button{
 	position: absolute;
-	top: 50%;
-    left: 41%;
+	top: 70%;
+    left: 50%;
 
 	font-size: 40px;
 }
@@ -26,6 +26,10 @@ body {
 	bottom: 0%;
 	background: green;
 	z-index: 6;
+	background-image: url('tanks.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 .igrok-img {
